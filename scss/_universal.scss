@@ -45,7 +45,7 @@
     width: 100%;
     transition: 0.5s;
     list-style-type: none;
-
+    z-index: 10;
     a {
         text-decoration: none;
         font-family: Roboto;
@@ -64,6 +64,7 @@
     background: transparent;
     cursor: pointer;
     border: none;
+    z-index: 1000;
 }
 
 html {

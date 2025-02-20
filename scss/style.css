@@ -46,6 +46,7 @@
   width: 100%;
   transition: 0.5s;
   list-style-type: none;
+  z-index: 10;
 }
 #navbar-responsive a {
   text-decoration: none;
@@ -64,6 +65,7 @@
   background: transparent;
   cursor: pointer;
   border: none;
+  z-index: 1000;
 }
 
 html {
@@ -92,7 +94,7 @@ body::-webkit-scrollbar-thumb {
           backdrop-filter: blur(10px);
   padding-top: 35px;
   padding-bottom: 30px;
-  z-index: 1000;
+  z-index: 10;
 }
 .home-section {
   display: flex;
