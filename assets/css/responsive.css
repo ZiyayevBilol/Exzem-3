@@ -1,0 +1,8 @@
+@media (max-width: 830px) {
+  .btn-left {
+    display: none;
+  }
+  .btn-right {
+    display: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */

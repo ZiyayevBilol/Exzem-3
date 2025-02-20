@@ -1,0 +1,24 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.about-section__left .btn-p {
+  border: none;
+  margin-bottom: 20px;
+  padding: 6px 12px 6px 12px;
+  border-radius: 32px;
+  background-color: #65665C;
+  color: #FFFFFF;
+}
+.about-section__left h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+  color: #2A2C1F;
+  margin-top: 20px;
+  margin-bottom: 28px;
+}/*# sourceMappingURL=about.css.map */

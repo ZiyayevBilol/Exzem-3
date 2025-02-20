@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* styles.css */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: none;
+    /* Tugma dastlab yashirin bo'ladi */
+    font-size: 16px;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+#navbar-responsive {
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+    align-items: center;
+    width: 100%;
+    transition: 0.5s;
+    list-style-type: none;
+
+    a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #222222;
+    }
+}
+
+#navbar-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    width: 10px;
+    background-color: rgb(189, 207, 228);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(124, 74, 74);
+    border-radius: 10px;
+}

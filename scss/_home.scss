@@ -1,0 +1,88 @@
+.home {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    padding-top: 35px;
+    padding-bottom: 30px;
+    z-index: 1000;
+    &-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        &__right ul {
+            display: flex;
+            gap: 30px;
+            list-style-type: none;
+
+            .navbar-link {
+                text-decoration: none;
+                font-family: Roboto;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0%;
+                color: #222222;
+            }
+
+        }
+         
+        &__btn {
+            .dark-btn{
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                align-items: center;
+            }
+            
+            .btn-left {
+                border: 1px solid #E7E8E3;
+                align-items: center;
+                border-radius: 6px;
+                padding: 9px 21px 9px 21px;
+                font-family: Roboto;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #2A2C1F;
+                background: transparent;
+                cursor: pointer;
+            }
+
+            .btn-right {
+                border: 1px solid #CF6F49;
+                padding: 9px 21px 9px 21px;
+                background: #CF6F49;
+                border-radius: 6px;
+                font-family: Roboto;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+        }
+    }
+    .menu-btn{
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        display: none;
+    }
+        #nav-open {
+            background: transparent;
+            display: none;
+        }
+}
+.dark {
+    background-color: black;
+}
+
+.dark * {
+    color: white !important;
+}

@@ -1,0 +1,85 @@
+.footer{
+    margin-top: 128px;
+    margin-bottom: 100px;
+    &-section{
+        display: flex;
+        justify-content: space-between;
+        &__content{
+            ul{
+                list-style-type: none;
+            }
+            li{
+                font-family: Roboto;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    color: #2A2C1F;
+                    margin-bottom: 16px;
+                    &:hover{
+                        color: rgb(221, 132, 132);
+                    }
+            }
+            h3{
+                font-family: Roboto;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    color: #2A2C1F;
+                    margin-bottom: 10px;
+            }
+            p{
+                font-family: Roboto;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    color: #65665C;
+                    margin-top: 15px;
+                    margin-bottom: 10px;
+            }
+            input{
+                padding: 12px 92px 12px 14px;
+                border: 1px solid #E7E8E3;
+                border-radius: 6px;
+                &::placeholder{
+                    font-family: Roboto;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        color: #65665C;
+                }
+            }
+            button{
+              border: 1px solid #CF6F49;
+              background: #CF6F49;
+              color: #FFFFFF;
+              padding: 10px 28px;
+            font-family: Roboto;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0%;
+                border-radius: 6px;
+            }
+        }
+    }
+    &-contact{
+        padding-top: 23px;
+        padding-bottom: 24px;
+        background: #F5F5F2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p{
+            font-family: Roboto;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: 0%;
+                color: #65665C;
+        }
+    }
+}
